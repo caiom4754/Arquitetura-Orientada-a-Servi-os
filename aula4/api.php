@@ -233,6 +233,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'DELETE') {
         exit;
     }
 
+
+
     $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : '';
 
     $sql = 'DELETE FROM Produto WHERE id = ?';
